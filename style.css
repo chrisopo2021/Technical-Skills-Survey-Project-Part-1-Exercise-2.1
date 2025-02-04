@@ -1,0 +1,112 @@
+/* Style for the body element */
+body {
+    text-align: center;
+    font-family: Oxanium, Helvetica, sans-serif;
+    background: radial-gradient(circle at 100%, #45464c,  #45464c 88%, #daa520);  
+}
+
+/* Style for h1 elements */
+h1 {
+    color: #ddb655; 
+    font-family: Orbitron, Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: 40px;   
+    text-transform: capitalize;
+    text-shadow: #1f1f1b 2px 2px;
+}
+
+/* Style for h2 elements */
+h2 {
+    color: #ddb655; 
+    font-family: Orbitron, Arial, sans-serif;  
+    text-decoration: underline; 
+    letter-spacing: 20px;
+    text-shadow: #1f1f1b 2px 2px;
+}
+
+/* Style for h3 elements */
+h3 {
+    color: #e1ddd3;;
+    font-family: Orbitron, Arial, sans-serif; 
+    letter-spacing: 10px;
+    font-weight: 800;
+    text-shadow: #daa520 1px 1px;
+}
+
+/* Style for h4 elements */
+h4 {
+    color: #daa520; 
+    font-family: Orbitron, Arial, sans-serif; 
+    letter-spacing: 10px;
+    font-weight: 800;
+}
+
+/* Style for paragraph elements */
+p {
+    color: #e1ddd3;
+    text-decoration: none;
+    font-family: Oxanium, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Style for anchor elements */
+a {
+    color: #e1ddd3;
+    text-decoration: none;
+    font-family: Oxanium, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Style for ordered and unordered lists, using flebox with AI assistance */
+ol, ul {
+    list-style-position: inside;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Oxanium, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Style for list items within ordered and unordered lists */
+ol li, ul li {
+    width: 100%;
+    text-align: center;
+    color: #e1ddd3;
+}
+
+/* Change bullet color for unordered list items */
+ul li::marker {
+    color: #daa520;
+}
+
+/* Style for tables with class 'center-table' */
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+    color: #e1ddd3;
+    text-decoration: none;
+    font-family: Oxanium, Helvetica, sans-serif;
+}
+
+/* Style for table header cells */
+th {
+    color: #daa520;
+    font-family: Oxanium, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+/* Style for table data cells */
+td {
+    color: #e1ddd3;
+    font-family: Oxanium, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Style for form elements */
+form {
+    color: #e1ddd3;
+    font-family: Oxanium, Helvetica, sans-serif;
+    font-size: 20px;
+}
