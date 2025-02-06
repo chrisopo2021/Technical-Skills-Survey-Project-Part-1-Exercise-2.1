@@ -110,3 +110,13 @@ form {
     font-family: Oxanium, Helvetica, sans-serif;
     font-size: 14px;
 }
+
+nav a:hover {
+    color: #daa520;
+    
+}
+
+input:focus {
+    background-color: #e1ddd3;
+    color: #000000;
+}
